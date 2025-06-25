@@ -1,9 +1,8 @@
-package com.example.thamernumbers.ControllerAdvice;
+package com.example.marketing.ControllerAdvise;
 
 
-import com.example.thamernumbers.ApiResponse.ApiException;
-
-import com.example.thamernumbers.ApiResponse.ApiResponse;
+import com.example.marketing.ApiResponse.ApiException;
+import com.example.marketing.ApiResponse.ApiResponse;
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.ResponseEntity;
